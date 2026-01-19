@@ -872,3 +872,72 @@ select {
 
 box-shadow: 0 0 0 rgba(0, 200, 100, 0);
 
+
+
+/* ---------- MOBILE FIX ---------- */
+@media (max-width: 768px) {
+
+  header {
+    padding: 30px 15px !important;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 28px !important;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 15px !important;
+    line-height: 1.4;
+  }
+
+  .logo {
+    width: 70px !important;
+    height: 70px !important;
+    top: 10px !important;
+    right: 10px !important;
+  }
+
+  nav {
+    padding: 12px 0;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
+  section {
+    padding: 30px 18px;
+  }
+
+  .about-text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 260px;
+    margin: auto;
+  }
+}
+
+.about-text {
+  max-width: 100%;
+  word-break: normal;
+  white-space: normal;
+}
+
+header {
+  min-height: auto;
+}
+
+
